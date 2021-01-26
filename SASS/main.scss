@@ -308,7 +308,7 @@ body{
             &--top {
                 img {
                     width: 180px;
-                    height: 140px;
+                    height: 180px;
                 }
             }
             &--bottom {
@@ -335,6 +335,7 @@ body{
                 img {
                     width: 180px;
                     height: 120px;
+                    transform: scale(1.2);
                 }
             }
             &--bottom {
