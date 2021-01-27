@@ -148,6 +148,7 @@ $(document).ready(function(){
 let sectiontitleburger = document.getElementById("section-title-burger");
 let sectiontitlesalade = document.getElementById("section-title-salade");
 let sectiontitlepizza = document.getElementById("section-title-pizza");
+let sectiontitleformule = document.getElementById("section-title-formules");
 if (matchMedia) {
   const mq = window.matchMedia("(min-width: 768px)");
   mq.addListener(WidthChange);
@@ -160,10 +161,12 @@ if (matchMedia) {
     sectiontitleburger.innerHTML = "--- NOS BURGERS ---";
     sectiontitlesalade.innerHTML = "--- NOS SALADES ---";
     sectiontitlepizza.innerHTML = "--- NOS PIZZAS ---";
+    sectiontitleformule.innerHTML = "--- NOS FORMULES ---";
   } else {
     sectiontitleburger.innerHTML = "NOS BURGERS";
     sectiontitlesalade.innerHTML = "NOS SALADES";
-    sectiontitlepizza.innerHTML = "NOS SALADES";
+    sectiontitlepizza.innerHTML = "NOS PIZZAS";
+    sectiontitleformule.innerHTML = "NOS FORMULES";
   }
   
   }
