@@ -17,3 +17,16 @@
     left: -$bottomwidth * 0.06;
     top: -$bottomheight * 0.1;
 }
+
+@mixin contact {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 2px 2px 15px;
+    img{
+        margin-bottom: 15px;
+    }
+}
